@@ -1,0 +1,162 @@
+html{
+    background-color:#ffffff; 
+    border: 0px;
+    padding: 0px;
+    display:grid;
+}
+a,footer,h1,h2,h3,h4,h5,p{
+    color:#2F1C6A;
+    font-family: 'Roboto Condensed', sans-serif;}
+div{
+   background-color: #ffffff;
+   padding: 10px;
+   width: 99.2%; 
+   display: inline-block;
+
+}
+.div-1{
+    width:35%;
+}
+.div-2{
+   text-align: right;
+    width: 50%;
+    
+}
+
+.sla{
+    left:"400px";
+    top:"120px";
+    position: absolute;
+}
+
+a{
+    text-decoration: none;
+    color: #2F1C6A;
+    font-size: 25px;
+    padding-left: 10px;
+}
+.memes{
+    font-size:20px;
+}
+.cop{
+    font-size: 15px;
+}
+
+a:hover{
+    color:rgb(243, 41, 51)
+}
+.copy{
+    font-size: 10px;
+    width:35%;
+}
+.redes{
+    
+   
+    width: 55%;
+    
+}
+.footer{
+    
+        background-color: #ffffff;
+        padding: 10px;
+        width: 99.2%; 
+       display: inline-block;
+}
+
+.body{
+   font-size: 25x;
+   text-align: center;
+   width: 100%;
+}
+.para{
+    text-align: center;
+}
+.para-1:hover{
+    color:rgb(243, 41, 51)
+}
+
+.para-2{
+    font-size: 30px;
+}
+@media(max-width:280px){
+    .copy{ 
+       
+        width: 80%;
+
+    }
+
+    .div-1{
+    width: 40%;
+    }
+    .div-2{
+        width: 59%;
+        }
+    }
+
+@media(max-width:768px){
+   
+    
+    .div-1{
+        width: 40%;
+        }
+        .div-2{
+            width: 59%;
+            text-align: left;
+            }
+        
+
+    .para{
+
+        font-size: 20px;
+        
+    }
+
+    .cop{
+        
+    font-size: 20px;
+    width: 50%;
+}
+    .memes{
+       
+    font-size: 20px;
+}
+.body{
+    
+    font-size: 20px;
+}
+}
+
+@media(max-width:912px){
+   
+    
+    .div-1{
+        width: 40%;
+        }
+        .div-2{
+            width: 59%;
+           
+            }
+        
+
+    .para{
+
+        font-size: 10px;
+        width: 70%;
+    }
+
+    .cop{
+       text-align: left;
+    font-size: 20px;
+    width: 70%;
+    }
+  
+}
+.body{
+    width: 70%;
+    font-size: 20px;
+}
+.memes{
+    width: 40%;
+    font-size: 16px;
+}
+
